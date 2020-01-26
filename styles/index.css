@@ -1,0 +1,76 @@
+/* 
+Coobvam Lor
+1/25/2020
+*/
+
+body {
+  font: comic sans ms, comic sans; 
+}
+
+main {
+  width: 75%;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  padding: 5px;
+  font-size: 1.75em
+}
+
+label{
+  font-weight: bold;
+  font-size: 1.7em
+}
+
+input[type=number] {
+  width: 50px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+button {
+  margin: 20px;
+  border: 3px solid black;
+  font-size: 1.5em;
+}
+
+hr {
+  width: 50%;
+}
+
+#results {
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+section {
+  text-align: center;
+}
+
+table {
+  width: 70%;
+  padding: 5px 5px;
+  text-align: left;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+tr, td {
+  border: 2px solid black;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+#results article {
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: left;
+  width: 80%;
+}

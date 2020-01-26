@@ -1,0 +1,61 @@
+<!-- 
+Coobvam Lor 
+1/25/2020 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Lucky Seven</title>
+    <link href="styles/index.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>Lucky Sevens</h1>
+      </header>
+
+      <section>
+        <label for="startingBet">Starting Bet:</label>
+        <input type="number" id="startingBet" placeholder="$0.00"/>
+      </section>
+
+      <section>
+        <button id="play-button" onclick="onPlayHandler(event)">Play</button>
+      </section>
+
+      <section id="results" class="hidden">
+        <hr>
+        <h1>Results</h1>
+        <article>
+          <table id="results-table">
+            <tr>
+              <td>Starting Bet</td>
+              <td id="table-startingBet"></td>
+            </tr>
+            <tr>
+              <td>Total Rolls Before Going Broke</td>
+              <td id="table-totalRolls"></td>
+            </tr>
+            <tr>
+              <td>Highest Amount Won</td>
+              <td id="table-highestAmount"></td>
+            </tr>
+            <tr>
+              <td>Roll Count at Highest Amount Won</td>
+              <td id="table-rollCountAtMax"></td>
+            </tr>
+          </table>
+        </article>
+      </section>
+
+      <section class="hidden"><h3 id="errorMessage"></h3></section>
+    </main>
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
